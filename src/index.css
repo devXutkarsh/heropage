@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  /* width: 100%;
+  padding: 20px 10rem;
+  color: #fff;
+  font-family: sans-serif; */
+
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.para input{
+  border: 1px solid #fff;
+  padding: 10px 100px;
+}
+.para button{
+  padding: 12px 30px;
+  background-color: blue;
+
+  border: none;
+}
+.div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.div input{
+  margin: 10px;
+}
+span{
+  color: orange;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
